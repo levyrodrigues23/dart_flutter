@@ -1,5 +1,5 @@
 int global =  1;
-int? global2 = null;
+int? global2;
 
 
 void main(){

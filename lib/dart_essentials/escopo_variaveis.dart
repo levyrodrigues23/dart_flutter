@@ -4,11 +4,11 @@ var nomeCompleto = 'jose levy rodrigues da silva';
 if(true){}
 print(nomeCompleto);
 
-var somar = (int a, int b){
+int somar(int a, int b){
   print(nomeCompleto);
   var total = a + b;
   return total;
-};
+}
 
 print(total); // ERRO, total nao existe aqui fora da funcao
 print(nome);

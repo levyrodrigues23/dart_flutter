@@ -1,5 +1,4 @@
 import 'package:projeto_dart_vscode/dart_essentials/visibilidade_exemplo.dart' ;
-import 'package:projeto_dart_vscode/ordem_parametros.dart';
 
 void main(){
   print(variavelGlobal);

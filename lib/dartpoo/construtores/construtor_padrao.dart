@@ -12,6 +12,8 @@ class Pessoa{
   int idade;
 
   Pessoa({required this.nome, required this.idade}); // construtor padraõ com parametros nomeados e obrigatorios
+  // o dart permite ter mais de um construtor na mesma classe 
+
 
   void exibirInformacoesPessoa(){
     print('nome: $nome, idade: $idade');
