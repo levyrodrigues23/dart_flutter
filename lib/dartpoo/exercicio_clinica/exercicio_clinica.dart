@@ -75,3 +75,6 @@ consulta2.exibirDetalhesDaConsulta();
 
 
 }
+
+
+// implementação do padrão prototype
