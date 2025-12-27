@@ -43,7 +43,7 @@ double valorHorasExtra;
 void main(){
   final funcionarioComum = Funcionario('levy', 2000);
 
-  final gerente = Gerente('levy', 10000, 2000);
+  final gerente = Gerente('levy', 10000, 2000);cha
   final desenvolvedor = Desenvolvedor('levy', 20000, 200, 200);
 
 print(desenvolvedor.calcularSalario());
