@@ -14,7 +14,7 @@ double calcularSalario(){
 class Gerente extends Funcionario{
 double bonus;
 
-  Gerente(String nome, double salarioBase, this.bonus) : super(nome, salarioBase);
+  Gerente(super.nome, super.salarioBase, this.bonus);
 
 
   @override
