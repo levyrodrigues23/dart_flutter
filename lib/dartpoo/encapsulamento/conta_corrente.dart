@@ -3,7 +3,7 @@ class ContaCorrente{
   double get saldo => _saldo;
 
 
-  set saldo(double valor){
+  set saldo(final double valor){
   if(valor > 0){
     _saldo = valor;
   } else{
@@ -11,7 +11,7 @@ class ContaCorrente{
   }
   }
 
-  double sacar(double valor){
+  double sacar(final double valor){
     if(valor <= _saldo){
          _saldo = _saldo - valor;
          return valor;
@@ -24,7 +24,7 @@ class ContaCorrente{
 
   }
 
-    void depositar(double valor){
+    void depositar(final double valor){
     if(valor > 0){
       _saldo += valor;
       print("voce depositou $valor reais");
