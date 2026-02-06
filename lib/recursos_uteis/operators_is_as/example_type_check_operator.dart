@@ -26,13 +26,9 @@ void main(){
   final Animal animalCachorro = Cachorro();
 
 
-String? nullable;
-nullable!.toLowerCase();
-
 for(final animal in animais){
-  animal.fazerSom();
-  final cachorro = animal as Cachorro;
-  cachorro.buscarBola();
+
+
 
 }
 
