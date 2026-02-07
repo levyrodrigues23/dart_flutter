@@ -1,11 +1,11 @@
-abstract class Logger{
+mixin Logger{
   void log(final String mensage){
     print("mensagem extremamente complexa de log: $mensage");
   }
 }
 
 
-class Service extends Logger, Auditoria{
+class Service extends Auditoria with Logger{
   void fazAlgumaTask(){
     // tanto faz.
 
@@ -18,7 +18,7 @@ class Service extends Logger, Auditoria{
 }
 
 
-class ServicoEmail extends Logger{
+class ServicoEmail extends Auditoria with Logger{
   void fazEnvioDoEmail(){
     // faz o envio de email
     log("mensagem");
@@ -28,4 +28,9 @@ class ServicoEmail extends Logger{
 
 class Auditoria{
   void auditar(){}
+}
+
+void main(){
+  final servico = Service();
+  final servicoEmail = ServicoEmail();
 }
