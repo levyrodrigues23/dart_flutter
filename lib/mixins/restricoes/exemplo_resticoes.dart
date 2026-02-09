@@ -19,10 +19,4 @@ class SuperPoderes{}
 class ClassServicoEmail extends SuperPoderes with MixinSuperPoderoso ,MixinRestrito{}
 // tenho que ter uma ordem na hierarquia
 
-
-class ClassServicoSms with MixinRestrito{}
-
-
-void main(){
-  
-}
+// essa prática é bem interessante na verdade
